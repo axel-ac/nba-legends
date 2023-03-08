@@ -7,9 +7,9 @@ import PlayerCard from "./PlayerCard";
 const CardContainer = () => {
   return (
     <Container className="card-container rounded-4 my-4 p-3">
-      <Row>
+      <Row className="g-3 justify-content-center">
         {data.map((player, index) => (
-          <Col key={index}>
+          <Col md={6} lg={4} xl={3} key={index}>
             <PlayerCard {...player} />
           </Col>
         ))}
