@@ -5,8 +5,7 @@ Project aims to create a NBA legends App.
 ```
 NBA Legends(folder)
 |
-|----readme.md         # Given to the students (Definition of the project)
-SOLUTION
+|---readme.md         
 ├── public
 │     └── index.html
 ├── src
